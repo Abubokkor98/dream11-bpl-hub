@@ -1,3 +1,4 @@
+import AvailablePlayers from "./Components/AvailablePlayers"
 import Banner from "./Components/Banner/Banner"
 import Navbar from "./Components/Navbar/Navbar"
 
@@ -11,6 +12,8 @@ function App() {
       <Navbar></Navbar>
       {/* Banner */}
       <Banner></Banner>
+      {/* Available Players*/}
+      <AvailablePlayers></AvailablePlayers>
     </div>
   )
 }

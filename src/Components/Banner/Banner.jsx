@@ -9,10 +9,10 @@ export default function
               <div>
                 <img src="./banner-main.png" alt="" />
               </div>
-           <h1 className='font-bold text-white text-4xl text-black w-11/12'>
+           <h1 className='font-bold text-4xl text-black w-11/12'>
            Assemble Your Ultimate Dream 11 Cricket Team
             </h1>
-            <p className='text-lg text-white   font-normal text-black'>
+            <p className='text-lg font-normal text-black'>
             Beyond Boundaries Beyond Limits
              </p>
              <div className='text-xl font-semibold'>
