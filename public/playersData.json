@@ -1,0 +1,103 @@
+[
+    {
+      "playerId": 1,
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm orthodox",
+      "biddingPrice": 2100000
+    },
+    {
+      "playerId": 2,
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "None",
+      "biddingPrice": 1500000
+    },
+    {
+      "playerId": 3,
+      "name": "Mashrafe Mortaza",
+      "country": "Bangladesh",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast-medium",
+      "biddingPrice": 1100000
+    },
+    {
+      "playerId": 4,
+      "name": "Virat Kohli",
+      "country": "India",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "None",
+      "biddingPrice": 2500000
+    },
+    {
+      "playerId": 5,
+      "name": "Jasprit Bumrah",
+      "country": "India",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": 1300000
+    },
+    {
+      "playerId": 6,
+      "name": "Babar Azam",
+      "country": "Pakistan",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "None",
+      "biddingPrice": 1800000
+    },
+    {
+      "playerId": 7,
+      "name": "Trent Boult",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Bowler",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm fast-medium",
+      "biddingPrice": 1800000
+    },
+    {
+      "playerId": 8,
+      "name": "David Warner",
+      "country": "Australia",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "None",
+      "biddingPrice": 2500000
+    },
+    {
+      "playerId": 9,
+      "name": "Ben Stokes",
+      "country": "England",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "All-rounder",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm fast-medium",
+      "biddingPrice": 1600000
+    },
+    {
+      "playerId": 10,
+      "name": "Kane Williamson",
+      "country": "New Zealand",
+      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm off-break",
+      "biddingPrice": 1500000
+    }
+  ]
+  

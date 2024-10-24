@@ -1,12 +1,14 @@
+import Navbar from "./Components/Navbar/Navbar"
 
 
 function App() {
 
 
   return (
-    <>
-      <h1>BPL-DREAM 11</h1>
-    </>
+    <div className="max-w-screen-lg mx-auto">
+      {/* Navbar */}
+      <Navbar></Navbar>
+    </div>
   )
 }
 
