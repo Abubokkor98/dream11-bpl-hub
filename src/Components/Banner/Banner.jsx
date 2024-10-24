@@ -1,7 +1,6 @@
 import React from 'react'
 
-export default function 
-() {
+export default function Banner({handleClaimCredit}) {
   return (
     <div className='bg-cover bg-no-repeat rounded-3xl md:w-full h-full md:h-[35.5rem] mb-10'
     style={{ backgroundImage: `url('./bg-shadow.png')` }}>
@@ -16,7 +15,7 @@ export default function
             Beyond Boundaries Beyond Limits
              </p>
              <div className='text-xl font-semibold'>
-                <button className='btn bg-green-400 rounded-full border-none'>
+                <button onClick={handleClaimCredit} className='btn bg-green-400 rounded-full border-none'>
                     Claim Free Credit
                 </button>
              </div>

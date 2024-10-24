@@ -1,3 +1,4 @@
+import { useState } from "react"
 import AllPlayers from "./Components/AllPlayers/AllPlayers"
 import AvailablePlayers from "./Components/AvailablePlayers"
 import Banner from "./Components/Banner/Banner"
@@ -6,6 +7,12 @@ import Navbar from "./Components/Navbar/Navbar"
 
 
 function App() {
+  const [coins, setCoins] = useState(0);
+
+  const handleClaimCredit = ()=>{
+    const newCoins = coins + 6000000;
+    setCoins(newCoins);
+  }
 
 
 
@@ -13,9 +20,9 @@ function App() {
 <div>
 <div className="max-w-screen-lg mx-auto">
       {/* Navbar */}
-      <Navbar></Navbar>
+      <Navbar coins={coins}></Navbar>
       {/* Banner */}
-      <Banner></Banner>
+      <Banner handleClaimCredit={handleClaimCredit}></Banner>
       {/* Available Players*/}
       <AvailablePlayers></AvailablePlayers>
       {/* All Players */}

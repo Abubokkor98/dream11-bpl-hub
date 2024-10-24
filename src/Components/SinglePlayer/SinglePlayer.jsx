@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function SinglePlayer({ player }) {
-  console.log(player);
+//   console.log(player);
   const {
     playerId,
     name,

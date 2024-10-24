@@ -6,12 +6,12 @@ export default function Footer() {
       <div className='flex justify-center mb-10'>
         <img src="/logo-footer.png" alt="" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-11/12 mx-auto">
         
         {/* left column */}
-        <div>
+        <div className=''>
           <h2 className="text-lg font-bold mb-4">About Us</h2>
-          <p className="text-sm">
+          <p className="text-sm w-9/12">
             We are a passionate team dedicated to providing the best services to our customers.
           </p>
         </div>
@@ -28,9 +28,9 @@ export default function Footer() {
         </div>
 
         {/* right column */}
-        <div>
+        <div className='w-10/12'>
           <h2 className="text-lg font-bold mb-4">Subscribe</h2>
-          <p className="text-sm mb-4">Subscribe to our newsletter for the latest updates.</p>
+          <p className="text-sm mb-4 w-10/12">Subscribe to our newsletter for the latest updates.</p>
           <div className="flex items-center">
             <input 
               type="email" 
