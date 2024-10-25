@@ -21,14 +21,19 @@ function App() {
       setCoins(coins - price);
     }
   };
+  // money back function
+  const handlePriceBack = (id) =>{
+    const player = choosePlayer.find((p) => p.playerId==id);
+    setCoins(coins+player.price);
+  }
   // state for chose player btn
   const [choosePlayer, setChoosePlayer] = useState([]);
 
   // player deleted function
   const handlePlayerDelete = (id) => {
+    handlePriceBack(id);
     const remainingPlayers = choosePlayer.filter((p)=> p.playerId!==id);
     setChoosePlayer(remainingPlayers);
-
   };
 
   // credit claim function
