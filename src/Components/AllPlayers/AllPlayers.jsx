@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import SinglePlayer from '../SinglePlayer/SinglePlayer';
 
-export default function AllPlayers() {
+export default function AllPlayers({handleChoosePlayer}) {
   const [players, setPlayers] = useState([]);
 
   useEffect(()=>{
@@ -19,6 +19,7 @@ export default function AllPlayers() {
         players.map(player=><SinglePlayer
             key={player.playerId}
             player={player}
+            handleChoosePlayer={handleChoosePlayer}
             ></SinglePlayer>)
         }
     </div>

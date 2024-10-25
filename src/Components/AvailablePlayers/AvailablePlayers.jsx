@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import AllPlayers from '../AllPlayers/AllPlayers'
 import SelectedPlayers from '../SelectedPlayers/SelectedPlayers'
 
-export default function Available({handleActiveStatus,isActive}) {
+export default function Available({handleActiveStatus,isActive, choosePlayer}) {
 
 
 
@@ -16,7 +16,7 @@ export default function Available({handleActiveStatus,isActive}) {
                 Available
             </button>
             <button className={`${isActive.available?"btn":"btn bg-green-400"}`} onClick={()=>handleActiveStatus('selected')}>
-                Selected(0)
+                Selected({choosePlayer.length})
             </button>
         </div>
     </div>

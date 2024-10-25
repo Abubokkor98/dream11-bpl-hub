@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function SinglePlayer({ player }) {
+export default function SinglePlayer({ player,handleChoosePlayer }) {
 //   console.log(player);
   const {
     playerId,
@@ -46,7 +46,7 @@ export default function SinglePlayer({ player }) {
           </div>
           <div className="flex justify-between">
             <h2 className="font-semibold">Price: ${price}</h2>
-            <button className="border rounded-md p-1 font-semibold">
+            <button className="border rounded-md p-1 font-semibold" onClick={()=>handleChoosePlayer(player)}>
                 Choose Player
                 </button>
           </div>

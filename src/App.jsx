@@ -14,12 +14,13 @@ function App() {
     available: true,
     status:"available"
 })
+// state for chose player btn
+const [choosePlayer, setChoosePlayer] = useState([]);
 // credit claim function
   const handleClaimCredit = ()=>{
     const newCoins = coins + 6000000;
     setCoins(newCoins);
   }
-
 // active button function
 const handleActiveStatus = (status) =>{
     if (status=="available"){
@@ -35,7 +36,22 @@ const handleActiveStatus = (status) =>{
         })
     }
 }
-console.log(isActive);
+const handleChoosePlayer = (player) =>{
+  const isExist = choosePlayer.find((p)=> p.playerId == player.playerId);
+
+  if(isExist){
+    alert("you already select this player")
+  }
+  else if(choosePlayer.length==6){
+    alert('you already added maximum player')
+
+  }
+  else{
+    const newPlayer = [...choosePlayer, player];
+    setChoosePlayer(newPlayer);
+  }
+}
+
 
 
 
@@ -47,9 +63,9 @@ console.log(isActive);
       {/* Banner */}
       <Banner handleClaimCredit={handleClaimCredit}></Banner>
       {/* Available Players */}
-      <AvailablePlayers handleActiveStatus={handleActiveStatus} isActive={isActive}></AvailablePlayers>
+      <AvailablePlayers handleActiveStatus={handleActiveStatus} isActive={isActive} choosePlayer={choosePlayer}></AvailablePlayers>
       {/*All Players*/}
-      {isActive.available?<AllPlayers></AllPlayers>:<SelectedPlayers></SelectedPlayers>}
+      {isActive.available?<AllPlayers handleChoosePlayer={handleChoosePlayer}></AllPlayers>:<SelectedPlayers choosePlayer={choosePlayer}></SelectedPlayers>}
     </div>
     <div className="max-w-screen-xl mx-auto mt-16">
       {/* Footer */}
