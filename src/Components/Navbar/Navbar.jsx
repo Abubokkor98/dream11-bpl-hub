@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Navbar({coins}) {
-  console.log(coins);
+  // console.log(coins);
   return (
 <div className='sticky top-0 z-50 backdrop-blur-lg bg-white/80'>
 <div className=' flex justify-between p-5'>

@@ -58,46 +58,6 @@
       "battingType": "Right-hand bat",
       "bowlingType": "None",
       "price": 1800000
-    },
-    {
-      "playerId": 7,
-      "name": "Trent Boult",
-      "country": "New Zealand",
-      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
-      "role": "Bowler",
-      "battingType": "Left-hand bat",
-      "bowlingType": "Left-arm fast-medium",
-      "price": 1800000
-    },
-    {
-      "playerId": 8,
-      "name": "David Warner",
-      "country": "Australia",
-      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
-      "role": "Batsman",
-      "battingType": "Left-hand bat",
-      "bowlingType": "None",
-      "price": 2500000
-    },
-    {
-      "playerId": 9,
-      "name": "Ben Stokes",
-      "country": "England",
-      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
-      "role": "All-rounder",
-      "battingType": "Left-hand bat",
-      "bowlingType": "Right-arm fast-medium",
-      "price": 1600000
-    },
-    {
-      "playerId": 10,
-      "name": "Kane Williamson",
-      "country": "New Zealand",
-      "image": "https://i.ibb.co.com/n3Zt5CL/sakib.webp",
-      "role": "Batsman",
-      "battingType": "Right-hand bat",
-      "bowlingType": "Right-arm off-break",
-      "price": 1500000
     }
   ]
   

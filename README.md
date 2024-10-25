@@ -6,24 +6,24 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 
 ### Navbar
 
-- The Navbar should match the Figma design and be responsive. done
-- Display the user's money in the Navbar, initially it will be 0. 
+- The Navbar should match the Figma design and be responsive. ---done
+- Display the user's money in the Navbar, initially it will be 0. ---done
 
 ### Banner
 
-- Design the banner with a heading, text, background, and button as per Figma. done
-- Everytime On clicking the button, the user's coin  will increase so that user can buy player.
+- Design the banner with a heading, text, background, and button as per Figma. ---done
+- Everytime On clicking the button, the user's coin  will increase so that user can buy player. ---done
 
 ### Main Section Design and Toggling Feature
 
-- Create two buttons at the top-right of the section. Available  & Selected
+- Create two buttons at the top-right of the section. Available  & Selected ---done
 - Selected button will show how many players are selected as in Figma , initially it will be 0.
 - Display Available Player section by default.
 - Display Selected Player Count in selected Player component as in figma.
 
 ### Player Data
 
-- Create a JSON file for  10-15 players, each having information like playerId, name, country, image, role, batting/bowling type, and bidding price.
+- Create a JSON file for  10-15 players, each having information like playerId, name, country, image, role, batting/bowling type, and bidding price. ---done
 - You can create this JSON with AI systems such as Gemini , ChatGPT ---done
 
 ### Display Players
