@@ -63,11 +63,11 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
   Add a "Remove" button to each selected player card. On click, the player should be removed from the selected players' section. ---done
 
 - **Add More Player Button Functionality **:
-  Implement an "Add More Players" button. On click, it should display the available player section again for the user to choose from.
+  Implement an "Add More Players" button. On click, it should display the available player section again for the user to choose from. ---done
 
 - **Implement The Perfect Validation on Player selection**:
-      - on clicking choose, player,  if player selected previously then show user an alert and terminate.
-      - if the selected player is already 6 then , show an alert and terminate
+      - on clicking choose, player,  if player selected previously then show user an alert and terminate. ---done
+      - if the selected player is already 6 then , show an alert and terminate ---done
  - **Change Your Web-Application Title**:
    change the web application title. If it show Vite-react some marks will be deducted.  ---done
   

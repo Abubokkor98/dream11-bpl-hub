@@ -5,6 +5,8 @@ import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import SelectedPlayers from "./Components/SelectedPlayers/SelectedPlayers";
 import AvailablePlayers from "./Components/AvailablePlayers/AvailablePlayers";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [coins, setCoins] = useState(0);
@@ -15,11 +17,7 @@ function App() {
   });
   //
   const handleMinusCoins = (price) => {
-    if (price > coins) {
-      alert("U don't have enough credit");
-    } else {
       setCoins(coins - price);
-    }
   };
   // money back function
   const handlePriceBack = (id) =>{
@@ -40,6 +38,7 @@ function App() {
   const handleClaimCredit = () => {
     const newCoins = coins + 6000000;
     setCoins(newCoins);
+    toast.success('Credit Added to your Account');
   };
   // active button function
   const handleActiveStatus = (status) => {
@@ -63,11 +62,12 @@ function App() {
     } else if (choosePlayer.length == 6) {
       alert("you already added maximum player");
     } else if (player.price > coins) {
-      alert("U don't have enough credit");
+      toast.error("Not enough money to buy this player. Claim some credit");
     } else {
       handleMinusCoins(player.price);
       const newPlayer = [...choosePlayer, player];
       setChoosePlayer(newPlayer);
+      toast.success(`Congrats!!!${player.name} is now in your squad`);
     }
   };
 
@@ -91,12 +91,14 @@ function App() {
           <SelectedPlayers
             choosePlayer={choosePlayer}
             handlePlayerDelete={handlePlayerDelete}
+            handleActiveStatus={handleActiveStatus}
           ></SelectedPlayers>
         )}
       </div>
       <div className="max-w-screen-xl mx-auto mt-16">
         {/* Footer */}
         <Footer></Footer>
+        <ToastContainer position="top-center"></ToastContainer>
       </div>
     </div>
   );

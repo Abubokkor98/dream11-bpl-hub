@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function SelectedPlayers({ choosePlayer,handlePlayerDelete }) {
+export default function SelectedPlayers({ choosePlayer,handlePlayerDelete, handleActiveStatus }) {
 
   return (
     <div>
-      {choosePlayer.map((player) => (
-        <div className="">
+      {choosePlayer.map((player, index) => (
+        <div className="" key={index}>
           <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow-md border border-blue-200 mb-2">
          <div className="flex justify-between">
             {/* left */}
@@ -30,6 +30,10 @@ export default function SelectedPlayers({ choosePlayer,handlePlayerDelete }) {
           </div>
         </div>
       ))}
+      {/* btn */}
+      <div>
+         <button className="btn bg-green-400" onClick={()=>handleActiveStatus('available')}>Add More Player</button>
+      </div>
     </div>
   );
 }
