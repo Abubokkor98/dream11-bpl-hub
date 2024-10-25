@@ -17,9 +17,9 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 ### Main Section Design and Toggling Feature
 
 - Create two buttons at the top-right of the section. Available  & Selected ---done
-- Selected button will show how many players are selected as in Figma , initially it will be 0.
-- Display Available Player section by default.
-- Display Selected Player Count in selected Player component as in figma.
+- Selected button will show how many players are selected as in Figma , initially it will be 0. ----done
+- Display Available Player section by default. done
+- Display Selected Player Count in selected Player component as in figma. ----done
 
 ### Player Data
 
@@ -30,19 +30,19 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 
 - Show all players in a card layout (3 columns recommended ) with the player's details ----done
 - Show Players name, country, image, role, batting/bowling type, and bidding price. ---done
-- Their will be a  "Choose Player" button on each card. on Clicking it following will happen.
+- Their will be a  "Choose Player" button on each card. on Clicking it following will happen. ----done
 
 ### Choose Player Functionality
 
-- on Click "Choose Player" button ,  check if user have available coin or not.
-- show an alert if user dont have available coin.  
-- Otherwise, add the player to the selected players list.
+- on Click "Choose Player" button ,  check if user have available coin or not. ----done
+- show an alert if user dont have available coin.  ----done
+- Otherwise, add the player to the selected players list. ----done
 
 ### Selected Players
 
-- Display selected players' details in a card with one-column layout
-- Each card will have player image , name ,  player role, price. 
-- a remove button for each player.
+- Display selected players' details in a card with one-column layout ----done
+- Each card will have player image , name ,  player role, price. ----done
+- a remove button for each player. ----done
 
 ### Newsletter Section
 
@@ -50,7 +50,7 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 
 ### Footer
 
-- Design the footer section following the Figma design.
+- Design the footer section following the Figma design. done
 
 ---
 

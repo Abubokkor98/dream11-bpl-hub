@@ -14,6 +14,15 @@ function App() {
     available: true,
     status:"available"
 })
+// 
+const handleMinusCoins = (price) => {
+  if(price>coins){
+    alert("U don't have enough credit");
+  }
+  else{
+    setCoins(coins - price);
+  }
+}
 // state for chose player btn
 const [choosePlayer, setChoosePlayer] = useState([]);
 // credit claim function
@@ -46,7 +55,11 @@ const handleChoosePlayer = (player) =>{
     alert('you already added maximum player')
 
   }
+  else if(player.price>coins){
+    alert("U don't have enough credit");
+  }
   else{
+    handleMinusCoins(player.price)
     const newPlayer = [...choosePlayer, player];
     setChoosePlayer(newPlayer);
   }
