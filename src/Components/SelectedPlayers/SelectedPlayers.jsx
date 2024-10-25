@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function SelectedPlayers({ choosePlayer }) {
-  console.log(choosePlayer);
+export default function SelectedPlayers({ choosePlayer,handlePlayerDelete }) {
+
   return (
     <div>
       {choosePlayer.map((player) => (
@@ -23,7 +23,7 @@ export default function SelectedPlayers({ choosePlayer }) {
             </div>
             {/* right */}
             <div className="flex items-center">
-               <button><i className="fa-solid fa-trash text-xl"></i></button>
+               <button onClick={()=>handlePlayerDelete(player.playerId)}><i className="fa-solid fa-trash text-xl"></i></button>
             </div>
 
          </div>

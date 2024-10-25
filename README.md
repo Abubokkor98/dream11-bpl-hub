@@ -35,7 +35,7 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 ### Choose Player Functionality
 
 - on Click "Choose Player" button ,  check if user have available coin or not. ----done
-- show an alert if user dont have available coin.  ----done
+- show an alert if user don't have available coin.  ----done
 - Otherwise, add the player to the selected players list. ----done
 
 ### Selected Players
@@ -60,7 +60,7 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
   Replace all alerts in the interface with `React-Toastify` for better user notifications.
 
 - **Implement Selected Player Remove Functionality**:
-  Add a "Remove" button to each selected player card. On click, the player should be removed from the selected players' section.
+  Add a "Remove" button to each selected player card. On click, the player should be removed from the selected players' section. ---done
 
 - **Add More Player Button Functionality **:
   Implement an "Add More Players" button. On click, it should display the available player section again for the user to choose from.
@@ -69,11 +69,11 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
       - on clicking choose, player,  if player selected previously then show user an alert and terminate.
       - if the selected player is already 6 then , show an alert and terminate
  - **Change Your Web-Application Title**:
-   change the web application title. If it show Vite-react some marks will be deducted.  
+   change the web application title. If it show Vite-react some marks will be deducted.  ---done
   
 
 
-- **Beautify GitHub Repository **:
+- **Beautify GitHub Repository **: ---done
   Create an attractive `README.md` for your GitHub repository with the following:
   - Name of your project.
   - A brief description.
