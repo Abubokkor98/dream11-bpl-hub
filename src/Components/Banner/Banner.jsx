@@ -15,7 +15,7 @@ export default function Banner({handleClaimCredit}) {
             Beyond Boundaries Beyond Limits
              </p>
              <div className='text-xl font-semibold'>
-                <button onClick={handleClaimCredit} className='btn bg-yellow-400 rounded-full border-none'>
+                <button onClick={handleClaimCredit} className='btn bg-gradient-to-r from-pink-500 to-yellow-400  border-none'>
                     Claim Free Credit
                 </button>
              </div>

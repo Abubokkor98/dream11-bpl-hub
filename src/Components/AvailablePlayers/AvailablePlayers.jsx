@@ -12,10 +12,10 @@ export default function Available({handleActiveStatus,isActive, choosePlayer}) {
             <div className='flex justify-between py-5'>
         <h1 className='font-bold text-2xl'>{isActive.available?"Available Players":`Selected Player (${choosePlayer.length}/6)`}</h1>
         <div className='flex gap-5'>
-            <button className={`${isActive.available?"btn bg-yellow-400":"btn"}`} onClick={()=>handleActiveStatus('available')}>
+            <button className={`${isActive.available?"btn bg-gradient-to-r from-pink-500 to-yellow-400":"btn"}`} onClick={()=>handleActiveStatus('available')}>
                 Available
             </button>
-            <button className={`${isActive.available?"btn":"btn bg-yellow-400"}`} onClick={()=>handleActiveStatus('selected')}>
+            <button className={`${isActive.available?"btn":"btn bg-gradient-to-r from-pink-500 to-yellow-400"}`} onClick={()=>handleActiveStatus('selected')}>
                 Selected({choosePlayer.length})
             </button>
         </div>

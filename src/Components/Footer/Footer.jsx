@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="mt-8 text-center border-t border-gray-700 pt-4">
           <p className="text-sm">
-            &copy;2024 Your Company All Rights Reserved.
+            &copy;2024 Dream11 BPL Hub All Rights Reserved.
           </p>
         </div>
       </footer>

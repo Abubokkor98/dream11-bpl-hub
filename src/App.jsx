@@ -32,6 +32,7 @@ function App() {
     handlePriceBack(id);
     const remainingPlayers = choosePlayer.filter((p)=> p.playerId!==id);
     setChoosePlayer(remainingPlayers);
+    toast.warning('Player removed');
   };
 
   // credit claim function
@@ -58,7 +59,7 @@ function App() {
     const isExist = choosePlayer.find((p) => p.playerId == player.playerId);
 
     if (isExist) {
-      toast.error("you already select this player");
+      toast.error("Player already added");
     } else if (choosePlayer.length == 6) {
       toast.warning("you have added maximum players");
     } else if (player.price > coins) {
@@ -98,7 +99,7 @@ function App() {
       <div className="max-w-screen-xl mx-auto mt-56">
         {/* Footer */}
         <Footer></Footer>
-        <ToastContainer position="top-center"></ToastContainer>
+        <ToastContainer position="top-center" theme="colored"></ToastContainer>
       </div>
     </div>
   );
