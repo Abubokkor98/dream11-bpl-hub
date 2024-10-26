@@ -8,10 +8,10 @@ export default function Navbar({ coins }) {
           <img src="/logo.png" alt="Logo" className="h-10 w-auto rounded-lg " />
         </div>
         <ul className="flex gap-4 md:gap-8 text-base font-medium text-gray-700">
-          <li>Home</li>
-          <li>Fixture</li>
-          <li>Teams</li>
-          <li>Schedules</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">Fixture</a></li>
+          <li><a href="">Teams</a></li>
+          <li><a href="">Schedules</a></li>
           <li className="flex items-center space-x-1 text-yellow-600">
             <span className="font-semibold">{coins}</span>
             <span>Coins</span>
