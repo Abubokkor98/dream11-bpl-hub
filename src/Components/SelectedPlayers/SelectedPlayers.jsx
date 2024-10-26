@@ -6,24 +6,24 @@ export default function SelectedPlayers({ choosePlayer,handlePlayerDelete, handl
     <div>
       {choosePlayer.map((player, index) => (
         <div className="" key={index}>
-          <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-4 rounded-lg shadow-md border border-blue-200 mb-2">
+          <div className="p-4 rounded-lg border mb-2">
          <div className="flex justify-between">
             {/* left */}
             <div className="flex gap-5">
               <div>
-                <img src={player.image} className="w-[50px] h-[50px]" alt="" />
+                <img src={player.image} className="w-16 h-16 rounded-md object-cover" alt="" />
               </div>
               <div>
-                <h1 className="font-semibold">{player.name}</h1>
-                <p>{player.role}</p>
+                <h1 className="font-semibold text-lg">{player.name}</h1>
+                <p className="text-sm">{player.role}</p>
                 <p>
-                  <small>${player.price}</small>
+                  <small className="font-semibold">${player.price}</small>
                 </p>
               </div>
             </div>
             {/* right */}
             <div className="flex items-center">
-               <button onClick={()=>handlePlayerDelete(player.playerId)}><i className="fa-solid fa-trash text-xl"></i></button>
+               <button onClick={()=>handlePlayerDelete(player.playerId)}><i className="fa-solid fa-trash text-xl text-red-400"></i></button>
             </div>
 
          </div>

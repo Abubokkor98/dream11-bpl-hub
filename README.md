@@ -1,97 +1,34 @@
-# <img width="30px" src="assets/logo.png"/> BPL-DREAM 11
-
-Welcome to **Assignment -07**. This assignment involves building a React-based application where users can select and manage cricket players for a team, following the design from Figma. You'll create a responsive UI, handle player selection, coin limitations, and complete the system following the requirements written below:
-
----
-
-### Navbar
-
-- The Navbar should match the Figma design and be responsive. ---done
-- Display the user's money in the Navbar, initially it will be 0. ---done
-
-### Banner
-
-- Design the banner with a heading, text, background, and button as per Figma. ---done
-- Everytime On clicking the button, the user's coin  will increase so that user can buy player. ---done
-
-### Main Section Design and Toggling Feature
-
-- Create two buttons at the top-right of the section. Available  & Selected ---done
-- Selected button will show how many players are selected as in Figma , initially it will be 0. ----done
-- Display Available Player section by default. done
-- Display Selected Player Count in selected Player component as in figma. ----done
-
-### Player Data
-
-- Create a JSON file for  10-15 players, each having information like playerId, name, country, image, role, batting/bowling type, and bidding price. ---done
-- You can create this JSON with AI systems such as Gemini , ChatGPT ---done
-
-### Display Players
-
-- Show all players in a card layout (3 columns recommended ) with the player's details ----done
-- Show Players name, country, image, role, batting/bowling type, and bidding price. ---done
-- Their will be a  "Choose Player" button on each card. on Clicking it following will happen. ----done
-
-### Choose Player Functionality
-
-- on Click "Choose Player" button ,  check if user have available coin or not. ----done
-- show an alert if user don't have available coin.  ----done
-- Otherwise, add the player to the selected players list. ----done
-
-### Selected Players
-
-- Display selected players' details in a card with one-column layout ----done
-- Each card will have player image , name ,  player role, price. ----done
-- a remove button for each player. ----done
-
-### Newsletter Section ---done
-
-- Design the newsletter section according to Figma.
-
-### Footer
-
-- Design the footer section following the Figma design. done
-
----
-
-### Challenges
-
-- **Use React-Toastify**: --done
-  Replace all alerts in the interface with `React-Toastify` for better user notifications.
-
-- **Implement Selected Player Remove Functionality**: ---done
-  Add a "Remove" button to each selected player card. On click, the player should be removed from the selected players' section. ---done
-
-- **Add More Player Button Functionality **: ---done
-  Implement an "Add More Players" button. On click, it should display the available player section again for the user to choose from. ---done
-
-- **Implement The Perfect Validation on Player selection**:
-      - on clicking choose, player,  if player selected previously then show user an alert and terminate. ---done
-      - if the selected player is already 6 then , show an alert and terminate ---done
- - **Change Your Web-Application Title**:
-   change the web application title. If it show Vite-react some marks will be deducted.  ---done
-  
+# Dream11 BPL Hub
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![React Toastify](https://img.shields.io/badge/React_Toastify-4000D8?style=for-the-badge&logo=react&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![FontAwesome](https://img.shields.io/badge/FontAwesome-339AF0?style=for-the-badge&logo=fontawesome&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Surge](https://img.shields.io/badge/Surge-ffffff?style=for-the-badge&logo=surge&logoColor=black)
 
 
-- **Beautify GitHub Repository **: ---done
-  Create an attractive `README.md` for your GitHub repository with the following:
-  - Name of your project.
-  - A brief description.
-  - Technologies used.
-  - 3 key features of your project.
 
----
+## 🌐 Live Demo
+- **Netlify**: [Dream11 BPL Hub Live](https://dream11-bpl.netlify.app/)
+- **Surge**: [Dream11 BPL Hub Live](https://dream11-bpl.surge.sh)
 
-### Optional Feature
+## 📝 Project Description
+Dream11 BPL Hub is a dynamic web application designed for cricket enthusiasts to create their ultimate fantasy cricket team for the Bangladesh Premier League (BPL). Users can browse through a diverse roster of players, select their favorites, and manage their team within a budget of virtual coins. The application features an intuitive interface that allows users to easily toggle between available and selected players, view detailed player statistics, and receive real-time notifications for actions taken. Built using React and styled with Tailwind CSS, the platform is fully responsive, ensuring a seamless experience across all devices. Whether you are a seasoned fantasy player or new to the game, Dream11 BPL Hub offers an engaging and user-friendly way to immerse yourself in the excitement of cricket.
 
-- Implement a login experience in the newsletter section using LocalStorage.
-- On subscribing, store the user's email and display a personalized message on reload if the email exists in LocalStorage.
+## ✨ Key Features
+- **Player Selection System** – Users can choose up to six players for their fantasy cricket team, ensuring strategic gameplay.
+- **Available Players List** – A dedicated section displaying all available players with their details, including name, country, role, batting type, bowling type, and price.
+- **Dynamic Player Information** – Each player card features essential information such as player image, name, role, country, and price.
+- **Coin Management** – Users start with a set amount of coins and can claim additional credits, allowing them to manage their budget effectively while selecting players.
+- **Selected Players Overview** – A separate view for users to see their selected players, along with the option to remove any player if needed.
 
-# Designs
-
-Page with Available Players
-<img src="application-design/main.jpg"/>
-
-<hr/>
-Page with Selected Players
-<img src="application-design/main-2.jpg"/>
+## 💻 Technologies Used
+- React - For building the user interface and managing component states.
+- JavaScript - For implementing functionality and interactivity in the application.
+- Tailwind CSS - For responsive design and UI styling.
+- React Toastify - For displaying toast notifications to enhance user feedback.
+- FontAwesome – For icons used throughout the UI.
+- HTML - For structuring the web pages.
