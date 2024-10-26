@@ -18,7 +18,7 @@ export default function SinglePlayer({ player,handleChoosePlayer }) {
         <figure>
           <img
             src={image}
-            alt="Shoes"
+            alt="Player image"
             className="rounded-md"
           />
         </figure>
@@ -34,7 +34,7 @@ export default function SinglePlayer({ player,handleChoosePlayer }) {
             <p className="">{country}</p>
             </div>
             {/* right div */}
-            <div className="bg-slate-300 rounded-md">
+            <div className="bg-slate-100 rounded-md">
                 <p className="p-1">{role}</p>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function SinglePlayer({ player,handleChoosePlayer }) {
           </div>
           <div className="flex justify-between">
             <h2 className="font-semibold">Price: ${price}</h2>
-            <button className="border rounded-md p-1 font-semibold hover:bg-yellow-400" onClick={()=>handleChoosePlayer(player)}>
+            <button className="border rounded-md bg-slate-100 px-2 py-3 font-semibold hover:bg-gradient-to-r from-pink-500 to-yellow-400" onClick={()=>handleChoosePlayer(player)}>
                 Choose Player
                 </button>
           </div>
