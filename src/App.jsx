@@ -36,7 +36,7 @@ function App() {
 
   // credit claim function
   const handleClaimCredit = () => {
-    const newCoins = coins + 6000000;
+    const newCoins = coins + 9000000;
     setCoins(newCoins);
     toast.success('Credit Added to your Account');
   };
@@ -58,9 +58,9 @@ function App() {
     const isExist = choosePlayer.find((p) => p.playerId == player.playerId);
 
     if (isExist) {
-      alert("you already select this player");
+      toast.error("you already select this player");
     } else if (choosePlayer.length == 6) {
-      alert("you already added maximum player");
+      toast.warning("you have added maximum players");
     } else if (player.price > coins) {
       toast.error("Not enough money to buy this player. Claim some credit");
     } else {
@@ -95,7 +95,7 @@ function App() {
           ></SelectedPlayers>
         )}
       </div>
-      <div className="max-w-screen-xl mx-auto mt-16">
+      <div className="max-w-screen-xl mx-auto mt-56">
         {/* Footer */}
         <Footer></Footer>
         <ToastContainer position="top-center"></ToastContainer>

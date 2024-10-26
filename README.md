@@ -44,7 +44,7 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 - Each card will have player image , name ,  player role, price. ----done
 - a remove button for each player. ----done
 
-### Newsletter Section
+### Newsletter Section ---done
 
 - Design the newsletter section according to Figma.
 
@@ -56,13 +56,13 @@ Welcome to **Assignment -07**. This assignment involves building a React-based a
 
 ### Challenges
 
-- **Use React-Toastify**:
+- **Use React-Toastify**: --done
   Replace all alerts in the interface with `React-Toastify` for better user notifications.
 
-- **Implement Selected Player Remove Functionality**:
+- **Implement Selected Player Remove Functionality**: ---done
   Add a "Remove" button to each selected player card. On click, the player should be removed from the selected players' section. ---done
 
-- **Add More Player Button Functionality **:
+- **Add More Player Button Functionality **: ---done
   Implement an "Add More Players" button. On click, it should display the available player section again for the user to choose from. ---done
 
 - **Implement The Perfect Validation on Player selection**:

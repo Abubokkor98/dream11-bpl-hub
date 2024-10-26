@@ -46,7 +46,7 @@ export default function SinglePlayer({ player,handleChoosePlayer }) {
           </div>
           <div className="flex justify-between">
             <h2 className="font-semibold">Price: ${price}</h2>
-            <button className="border rounded-md p-1 font-semibold" onClick={()=>handleChoosePlayer(player)}>
+            <button className="border rounded-md p-1 font-semibold hover:bg-yellow-400" onClick={()=>handleChoosePlayer(player)}>
                 Choose Player
                 </button>
           </div>

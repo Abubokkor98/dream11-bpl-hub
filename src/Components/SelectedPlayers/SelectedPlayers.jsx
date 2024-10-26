@@ -32,7 +32,7 @@ export default function SelectedPlayers({ choosePlayer,handlePlayerDelete, handl
       ))}
       {/* btn */}
       <div>
-         <button className="btn bg-green-400" onClick={()=>handleActiveStatus('available')}>Add More Player</button>
+         <button className="btn bg-yellow-400" onClick={()=>handleActiveStatus('available')}>Add More Player</button>
       </div>
     </div>
   );
